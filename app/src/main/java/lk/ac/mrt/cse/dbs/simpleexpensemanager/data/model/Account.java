@@ -16,14 +16,20 @@
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model;
 
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.AccountDAO;
+
 /**
  * This POJO holds the information about an account.
  */
-public class Account {
+public class Account{
     private String accountNo;
     private String bankName;
     private String accountHolderName;
     private double balance;
+
+    public Account() {
+
+    }
 
     public String getAccountNo() {
         return accountNo;

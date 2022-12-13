@@ -24,6 +24,10 @@ import java.util.Date;
 public class Transaction {
     private Date date;
 
+    public Transaction() {
+
+    }
+
     public Date getDate() {
         return date;
     }
